@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VIE20111</Machine>
+    <WindowsUser>MKushnarenko</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>33432ce7-8dcf-4686-95aa-c66d4e479120</PackageIdentityName>
+    <PackageIdentityPublisher>CN=MKushnarenko</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FCDF0C3114B10F1457E6199B03145339B36568FE34AE9F40F9748B3D410DFF61</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>33432ce7-8dcf-4686-95aa-c66d4e479120_1.0.0.0_x86__pbw0tj4cb6fg2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>33432ce7-8dcf-4686-95aa-c66d4e479120_pbw0tj4cb6fg2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>33432ce7-8dcf-4686-95aa-c66d4e479120</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=MKushnarenko</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-04T12:10:12.469</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\UWPTest.exe">
+      <PackagePath>entrypoint\UWPTest.exe</PackagePath>
+      <Modified>2020-03-04T12:10:11.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\.nuget\packages\automapper\9.0.0\lib\netstandard2.0\AutoMapper.dll">
+      <PackagePath>AutoMapper.dll</PackagePath>
+      <Modified>2019-08-12T09:42:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\.nuget\packages\microsoft.extensions.dependencyinjection\3.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2019-09-13T21:15:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\3.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2019-09-13T21:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-04-21T22:06:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\.nuget\packages\restsharp\106.6.10\lib\netstandard2.0\RestSharp.dll">
+      <PackagePath>RestSharp.dll</PackagePath>
+      <Modified>2019-07-03T18:33:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T11:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T15:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\1.jpg">
+      <PackagePath>Assets\1.jpg</PackagePath>
+      <Modified>2020-03-04T10:41:07.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\2.jpg">
+      <PackagePath>Assets\2.jpg</PackagePath>
+      <Modified>2020-03-04T10:41:16.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\3.jpg">
+      <PackagePath>Assets\3.jpg</PackagePath>
+      <Modified>2020-03-04T10:41:24.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\4.jpg">
+      <PackagePath>Assets\4.jpg</PackagePath>
+      <Modified>2020-03-04T10:41:37.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\cropped-logo.scale-100.png">
+      <PackagePath>Assets\cropped-logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-01T08:33:51.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\cropped-logo.scale-125.png">
+      <PackagePath>Assets\cropped-logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-01T08:33:12.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\cropped-logo.scale-150.png">
+      <PackagePath>Assets\cropped-logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-01T08:32:26.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\cropped-logo.scale-200.png">
+      <PackagePath>Assets\cropped-logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-01T08:31:41.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\cropped-logo.scale-400.png">
+      <PackagePath>Assets\cropped-logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-01T08:31:24.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Blizzard Night.png">
+      <PackagePath>Assets\Icons\Blizzard Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Blizzard.png">
+      <PackagePath>Assets\Icons\Blizzard.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Breezy Snow.png">
+      <PackagePath>Assets\Icons\Breezy Snow.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Breezy.png">
+      <PackagePath>Assets\Icons\Breezy.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Clear Night.png">
+      <PackagePath>Assets\Icons\Clear Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Drizzle Night.png">
+      <PackagePath>Assets\Icons\Drizzle Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Drizzle.png">
+      <PackagePath>Assets\Icons\Drizzle.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Dust.png">
+      <PackagePath>Assets\Icons\Dust.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Fog Night.png">
+      <PackagePath>Assets\Icons\Fog Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Fog.png">
+      <PackagePath>Assets\Icons\Fog.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Hail Night.png">
+      <PackagePath>Assets\Icons\Hail Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Hail.png">
+      <PackagePath>Assets\Icons\Hail.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Haze.png">
+      <PackagePath>Assets\Icons\Haze.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Heavy Rain Night.png">
+      <PackagePath>Assets\Icons\Heavy Rain Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Heavy Rain.png">
+      <PackagePath>Assets\Icons\Heavy Rain.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Mix Rainfall Night.png">
+      <PackagePath>Assets\Icons\Mix Rainfall Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Mix Rainfall.png">
+      <PackagePath>Assets\Icons\Mix Rainfall.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Mostly Cloudy Night.png">
+      <PackagePath>Assets\Icons\Mostly Cloudy Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Mostly Cloudy.png">
+      <PackagePath>Assets\Icons\Mostly Cloudy.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Mostly Sunny.png">
+      <PackagePath>Assets\Icons\Mostly Sunny.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Party Cloudy Night.png">
+      <PackagePath>Assets\Icons\Party Cloudy Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Party Cloudy.png">
+      <PackagePath>Assets\Icons\Party Cloudy.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Rain Nght.png">
+      <PackagePath>Assets\Icons\Rain Nght.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Rain.png">
+      <PackagePath>Assets\Icons\Rain.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Scattered Showers Night.png">
+      <PackagePath>Assets\Icons\Scattered Showers Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Scattered Showers.png">
+      <PackagePath>Assets\Icons\Scattered Showers.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Scattered Thunderstorm Night.png">
+      <PackagePath>Assets\Icons\Scattered Thunderstorm Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Scattered Thunderstorm.png">
+      <PackagePath>Assets\Icons\Scattered Thunderstorm.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Severe Thunderstorm Night.png">
+      <PackagePath>Assets\Icons\Severe Thunderstorm Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Severe Thunderstorm.png">
+      <PackagePath>Assets\Icons\Severe Thunderstorm.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Sleet Night.png">
+      <PackagePath>Assets\Icons\Sleet Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Sleet.png">
+      <PackagePath>Assets\Icons\Sleet.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Smoke.png">
+      <PackagePath>Assets\Icons\Smoke.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Snow Night.png">
+      <PackagePath>Assets\Icons\Snow Night.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Icons\Snow.png">
+      <PackagePath>Assets\Icons\Snow.png</PackagePath>
+      <Modified>2019-10-01T08:08:03.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-09-25T08:37:37.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-25T08:37:37.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-25T08:37:37.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-25T08:37:37.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-25T08:37:37.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-09-25T10:14:43.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\UWPTest.xr.xml">
+      <PackagePath>UWPTest.xr.xml</PackagePath>
+      <Modified>2020-03-04T11:26:22.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-03-04T10:37:41.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-03-04T10:48:03.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Views\ExendedScreen.xbf">
+      <PackagePath>Views\ExendedScreen.xbf</PackagePath>
+      <Modified>2020-03-04T10:37:41.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Views\MainMenu.xbf">
+      <PackagePath>Views\MainMenu.xbf</PackagePath>
+      <Modified>2020-03-04T12:10:11.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Views\Menu.xbf">
+      <PackagePath>Views\Menu.xbf</PackagePath>
+      <Modified>2020-03-04T10:48:03.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T14:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-03-04T10:48:03.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Core\UWPTest.exe">
+      <PackagePath>UWPTest.exe</PackagePath>
+      <Modified>2020-03-04T12:10:12.461</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
