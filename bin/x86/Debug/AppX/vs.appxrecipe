@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-03-04T12:10:12.469</Modified>
+      <Modified>2020-03-04T13:13:53.392</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\UWPTest.exe">
       <PackagePath>entrypoint\UWPTest.exe</PackagePath>
-      <Modified>2020-03-04T12:10:11.685</Modified>
+      <Modified>2020-03-04T13:13:52.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\.nuget\packages\automapper\9.0.0\lib\netstandard2.0\AutoMapper.dll">
       <PackagePath>AutoMapper.dll</PackagePath>
@@ -277,27 +277,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\UWPTest.xr.xml">
       <PackagePath>UWPTest.xr.xml</PackagePath>
-      <Modified>2020-03-04T11:26:22.897</Modified>
+      <Modified>2020-03-04T13:13:52.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-03-04T10:37:41.624</Modified>
+      <Modified>2020-03-04T12:35:09.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-03-04T10:48:03.636</Modified>
+      <Modified>2020-03-04T12:35:09.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Views\ExendedScreen.xbf">
       <PackagePath>Views\ExendedScreen.xbf</PackagePath>
-      <Modified>2020-03-04T10:37:41.624</Modified>
+      <Modified>2020-03-04T12:35:09.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Views\MainMenu.xbf">
       <PackagePath>Views\MainMenu.xbf</PackagePath>
-      <Modified>2020-03-04T12:10:11.519</Modified>
+      <Modified>2020-03-04T13:13:52.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Views\Menu.xbf">
       <PackagePath>Views\Menu.xbf</PackagePath>
-      <Modified>2020-03-04T10:48:03.637</Modified>
+      <Modified>2020-03-04T12:35:09.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -305,11 +305,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-03-04T10:48:03.928</Modified>
+      <Modified>2020-03-04T12:21:34.940</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MKushnarenko\source\repos\UWPTest\UWPTest\bin\x86\Debug\Core\UWPTest.exe">
       <PackagePath>UWPTest.exe</PackagePath>
-      <Modified>2020-03-04T12:10:12.461</Modified>
+      <Modified>2020-03-04T13:13:53.387</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

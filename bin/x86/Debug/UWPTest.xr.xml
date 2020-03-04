@@ -5,6 +5,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
@@ -24,8 +25,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Width" />
-      <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
@@ -54,12 +55,36 @@
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="UWPTest.Views.ExendedScreen" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="UWPTest.Views.MainMenu" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="ItemContainerTransitions" />
       <RootProperty Name="Items" />
@@ -70,21 +95,6 @@
       <RootProperty Name="FromVerticalOffset" />
       <RootProperty Name="IsStaggeringEnabled" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="Background" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Text" />
-      <RootProperty Name="TextAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
-      <RootProperty Name="ImageSource" />
-      <RootProperty Name="Opacity" />
-    </RootType>
-    <RootType FullName="UWPTest.Views.MainMenu" />
     <RootType FullName="UWPTest.Menu" />
   </Roots.RootTypes>
 </Roots>

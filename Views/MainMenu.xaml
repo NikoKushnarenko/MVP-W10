@@ -8,6 +8,26 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.Resources>
+        <Style TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalAlignment" Value="Stretch"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <Style TargetType="Image">
+            <Setter Property="Stretch" Value="None"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="TextAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Grid">
+            <Setter Property="BorderBrush" Value="Silver"/>
+        </Style>
+        <Style TargetType="ImageBrush">
+            <Setter Property="Opacity" Value="0.5"/>
+        </Style>
+    </Page.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -19,139 +39,66 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" BorderThickness="0 0 1 1" BorderBrush="Silver">
+        <Grid Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" BorderThickness="0 0 1 1">
             <Grid.Background>
-                <ImageBrush ImageSource="/Assets/1.jpg" Opacity="0.5"/>
+                <ImageBrush ImageSource="/Assets/1.jpg"/>
             </Grid.Background>
         </Grid>
-        <Grid Grid.Row="2" Grid.Column="0" BorderThickness="0 1 1 0" BorderBrush="Silver">
+        <Grid Grid.Row="2" Grid.Column="0" BorderThickness="0 1 1 0">
             <Grid.Background>
-                <ImageBrush ImageSource="/Assets/2.jpg" Opacity="0.5"/>
+                <ImageBrush ImageSource="/Assets/2.jpg"/>
             </Grid.Background>
         </Grid>
-        <Grid Grid.Row="0" Grid.Column="1" BorderThickness="1 0 0 1" BorderBrush="Silver">
+        <Grid Grid.Row="0" Grid.Column="1" BorderThickness="1 0 0 1">
             <Grid.Background>
-                <ImageBrush ImageSource="/Assets/4.jpg" Opacity="0.5"/>
+                <ImageBrush ImageSource="/Assets/4.jpg"/>
             </Grid.Background>
         </Grid>
-        <Grid Grid.Row="1" Grid.Column="1" BorderThickness="1 0 0 1" BorderBrush="Silver">
+        <Grid Grid.Row="1" Grid.Column="1" BorderThickness="1 0 0 1">
             <Grid.Background>
-                <ImageBrush ImageSource="/Assets/3.jpg" Opacity="0.5"/>
+                <ImageBrush ImageSource="/Assets/3.jpg"/>
             </Grid.Background>
         </Grid>
-        <Grid Grid.Row="2" Grid.Column="1" BorderThickness="1 1 1 0" BorderBrush="Silver">
+        <Grid Grid.Row="2" Grid.Column="1" BorderThickness="1 1 1 0">
             <Grid.Background>
-                <ImageBrush ImageSource="/Assets/4.jpg" Opacity="0.5"/>
+                <ImageBrush ImageSource="/Assets/4.jpg"/>
             </Grid.Background>
         </Grid>
 
-        <ItemsControl Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2">
-            <ItemsControl.ItemContainerTransitions>
-                <TransitionCollection>
-                    <EntranceThemeTransition 
-                        FromHorizontalOffset="600" 
-                        FromVerticalOffset="-200" 
-                        IsStaggeringEnabled="True"/>
-                </TransitionCollection>
-            </ItemsControl.ItemContainerTransitions>
-            <ItemsControl.Items>
-                <StackPanel>
-                    <Button Background="Transparent">
-                        <StackPanel>
-                            <Image Source="/Assets/Icons/Dust.png" Stretch="None" />
-                            <TextBlock Text="About TCO"/>
-                        </StackPanel>
-                    </Button>
-                </StackPanel>
-            </ItemsControl.Items>
-        </ItemsControl>
+        <Button Grid.Row="0" Grid.Column="0" Grid.RowSpan="2">
+            <StackPanel >
+                <Image Source="/Assets/Icons/Dust.png" />
+                <TextBlock Text="About TCO"/>
+            </StackPanel>
+        </Button>
 
-        <ItemsControl Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" >
-            <ItemsControl.ItemContainerTransitions>
-                <TransitionCollection>
-                    <EntranceThemeTransition 
-                        FromHorizontalOffset="600" 
-                        FromVerticalOffset="-200" 
-                        IsStaggeringEnabled="True"/>
-                </TransitionCollection>
-            </ItemsControl.ItemContainerTransitions>
-            <ItemsControl.Items>
-                <StackPanel>
-                    <Button Background="Transparent" HorizontalAlignment="Center">
-                        <StackPanel>
-                            <Image Source="/Assets/Icons/Mostly Sunny.png" Stretch="None" />
-                            <TextBlock Text="Bio" TextAlignment="Center"/>
-                        </StackPanel>
-                    </Button>
-                </StackPanel>
-            </ItemsControl.Items>
-        </ItemsControl>
+        <Button Grid.Row="0" Grid.Column="1">
+            <StackPanel>
+                <Image Source="/Assets/Icons/Mostly Sunny.png"/>
+                <TextBlock Text="Bio" />
+            </StackPanel>
+        </Button>
 
-        <ItemsControl Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" >
-            <ItemsControl.ItemContainerTransitions>
-                <TransitionCollection>
-                    <EntranceThemeTransition 
-                        FromHorizontalOffset="600" 
-                        FromVerticalOffset="-200" 
-                        IsStaggeringEnabled="True"/>
-                </TransitionCollection>
-            </ItemsControl.ItemContainerTransitions>
-            <ItemsControl.Items>
-                <StackPanel Background="Transparent" HorizontalAlignment="Center">
-                    <Button Background="Transparent">
-                        <StackPanel>
-                            <Image Source="/Assets/Icons/Snow.png" Stretch="None" />
-                            <TextBlock Text="Digital Ebook"/>
-                        </StackPanel>
-                    </Button>
-                </StackPanel>
-            </ItemsControl.Items>
-        </ItemsControl>
+        <Button Grid.Row="1" Grid.Column="1">
+            <StackPanel>
+                <Image Source="/Assets/Icons/Snow.png"/>
+                <TextBlock Text="Digital Ebook"/>
+            </StackPanel>
+        </Button>
 
-        <ItemsControl Grid.Row="2" Grid.Column="0" VerticalAlignment="Center">
-            <ItemsControl.ItemContainerTransitions>
-                <TransitionCollection>
-                    <EntranceThemeTransition 
-                        FromHorizontalOffset="600" 
-                        FromVerticalOffset="-200" 
-                        IsStaggeringEnabled="True"/>
-                </TransitionCollection>
-            </ItemsControl.ItemContainerTransitions>
-            <ItemsControl.Items>
-                <StackPanel HorizontalAlignment="Center"
-                            VerticalAlignment="Center">
-                    <Button Background="Transparent">
-                        <StackPanel>
-                            <Image Source="/Assets/Icons/Party Cloudy Night.png" Stretch="None" />
-                            <TextBlock Text="FlyOver Map" TextAlignment="Center"/>
-                        </StackPanel>
-                    </Button>
-                </StackPanel>
+        <Button Grid.Row="2" Grid.Column="0">
+            <StackPanel>
+                <Image Source="/Assets/Icons/Party Cloudy Night.png" />
+                <TextBlock Text="FlyOver Map" />
+            </StackPanel>
+        </Button>
 
-            </ItemsControl.Items>
-        </ItemsControl>
-
-        <ItemsControl Grid.Row="2" Grid.Column="1"  VerticalAlignment="Center">
-            <ItemsControl.ItemContainerTransitions>
-                <TransitionCollection>
-                    <EntranceThemeTransition 
-                        FromHorizontalOffset="600" 
-                        FromVerticalOffset="-200" 
-                        IsStaggeringEnabled="True"/>
-                </TransitionCollection>
-            </ItemsControl.ItemContainerTransitions>
-            <ItemsControl.Items>
-                <StackPanel HorizontalAlignment="Center"
-                            VerticalAlignment="Center">
-                    <Button Background="Transparent">
-                        <StackPanel>
-                            <Image Source="/Assets/Icons/Rain.png" Stretch="None"/>
-                            <TextBlock Text="Itinery" TextAlignment="Center"/>
-                        </StackPanel>
-                    </Button>
-                </StackPanel>
-            </ItemsControl.Items>
-        </ItemsControl>
+        <Button Grid.Row="2" Grid.Column="1">
+            <StackPanel>
+                <Image Source="/Assets/Icons/Rain.png"/>
+                <TextBlock Text="Itinery"/>
+            </StackPanel>
+        </Button>
 
     </Grid>
 </Page>
